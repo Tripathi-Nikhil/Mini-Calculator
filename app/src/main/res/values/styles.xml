@@ -1,0 +1,20 @@
+<resources>
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:buttonStyle">?attr/buttonStyle</item>
+        <item name="android:backgroundTint">@null</item>  <!-- Prevents unwanted tinting -->
+    </style>
+
+    <style name="OperatorButton" parent="CalculatorButton">
+    </style>
+
+    <style name="ClearButton" parent="CalculatorButton">
+    </style>
+</resources>
