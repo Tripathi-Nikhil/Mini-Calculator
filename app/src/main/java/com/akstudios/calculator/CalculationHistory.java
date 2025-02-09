@@ -1,4 +1,4 @@
-package com.akstudios.calculator;
+package com.example.calculator;
 
 public class CalculationHistory {
     private String expression;

@@ -1,4 +1,4 @@
-package com.akstudios.calculator;
+package com.example.calculator;
 
 import android.os.Bundle;
 import android.widget.Button;
